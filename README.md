@@ -6,9 +6,9 @@ CS6253-HW1-Questions
 1. Consider the generation of uniformly distributed pseudorandom numbers using the multiplicative con-
 gruential method.
 
-sn+1 = (k · sn)mod(m), n = 0, 1, . . .
+                  sn+1 = (k · sn)mod(m), n = 0, 1, . . .
 
-rn = sn/m, n = 0, 1, . . .
+                  rn = sn/m, n = 0, 1, . . .
 
 s0 is referred to as the seed which may be any integer between 1 and 2147483646, and rn is the sequence
 of uniformly distributed numbers in the interval (0,1). Let k = 16807 and m = 2147483647. Write a
