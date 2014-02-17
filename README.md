@@ -3,10 +3,11 @@ Pseudorandom-Number
 
 CS6253-HW1-Questions
 
-3. Consider the generation of uniformly distributed pseudorandom numbers using the multiplicative con-
+1. Consider the generation of uniformly distributed pseudorandom numbers using the multiplicative con-
 gruential method.
 
 sn+1 = (k · sn)mod(m), n = 0, 1, . . .
+
 rn = sn/m, n = 0, 1, . . .
 
 s0 is referred to as the seed which may be any integer between 1 and 2147483646, and rn is the sequence
@@ -21,8 +22,11 @@ and the random numbers.
 
 
 
-4. An exponentially distributed pseudorandom number may be generated using the following approach:
+
+2. An exponentially distributed pseudorandom number may be generated using the following approach:
+
                                          y = −1/lambda ln r
+                                         
 y is the random number which is exponentially distributed with parameter lambda, and r is random number
 uniformly distributed between 0 and 1. Generate a sequence of 10000 exponentially distributed random
 numbers with lambda = 2, and calculate the mean and variance in your main program. Use the program
