@@ -1,7 +1,7 @@
 Pseudorandom-Number
 ===================
 
-CS6253-HW1-Questions
+CS6253-HW1       Programming in Java
 
 Question 3. Consider the generation of uniformly distributed pseudorandom numbers using the multiplicative con-
 gruential method.
