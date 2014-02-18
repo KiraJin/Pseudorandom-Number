@@ -3,7 +3,7 @@ Pseudorandom-Number
 
 CS6253-HW1-Questions
 
-3. Consider the generation of uniformly distributed pseudorandom numbers using the multiplicative con-
+Question 3. Consider the generation of uniformly distributed pseudorandom numbers using the multiplicative con-
 gruential method.
 
                   sn+1 = (k · sn)mod(m), n = 0, 1, . . .
@@ -23,7 +23,7 @@ and the random numbers.
 
 
 
-4. An exponentially distributed pseudorandom number may be generated using the following approach:
+Question 4. An exponentially distributed pseudorandom number may be generated using the following approach:
 
                                          y = −1/lambda ln r
                                          
